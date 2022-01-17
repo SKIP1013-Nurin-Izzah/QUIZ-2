@@ -7,8 +7,8 @@ public class QUIZ2Q1 {
 
 		Scanner input = new Scanner (System.in);
 		
-		int classes;
-		int attended;
+		double classes;
+		double attended;
 		double percentage;
 		
 		System.out.println("Number of classes held: ");
