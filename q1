@@ -1,0 +1,29 @@
+package selfProgramming;
+import java.util.Scanner;
+public class QUIZ2Q1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner (System.in);
+		
+		int classes;
+		int attended;
+		double percentage;
+		
+		System.out.println("Number of classes held: ");
+		classes = input.nextInt();
+		
+		System.out.println("The number of classes attended: ");
+		attended = input.nextInt();
+		
+		percentage = (attended/classes)*100;
+		System.out.println("Your percentage of class attended is: " +percentage);
+		
+		if (percentage<75)
+			System.out.println("You will not be allowed to sit in an exam");
+		else
+			System.out.println("You are allowed to sit in an exam");
+	}
+
+}
